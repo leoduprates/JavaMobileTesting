@@ -6,12 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.sample.appname.helpers.DateHelpers;
-import org.sample.appname.helpers.DriverManagerHelper;
+import org.sample.appname.helpers.DriverHelper;
 
 import java.io.File;
 import java.io.IOException;
 
-public class DefaultSteps  extends DriverManagerHelper {
+public class DefaultSteps extends DriverHelper {
 
     @Then("^I touch the text \"([^\"]*)\"$")
     public void touchText(String text)  {
