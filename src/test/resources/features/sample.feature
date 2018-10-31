@@ -1,6 +1,6 @@
-Feature: Login Test
+Feature: Default Steps Test
 
-  Scenario: Valid Login
+  Scenario: Valid touch and enter text steps
     Given I touch the text "Views"
     When I touch the text "Auto Complete"
        And I touch the text "4. Contacts"
