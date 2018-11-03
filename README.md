@@ -1,32 +1,29 @@
 # java-appium-cucumber-sample
 
-Este projeto é um exemplo de automação de testes mobile. Foi desenvolvido utilizando o framework Appium com a tecnologia Java aplicando com o Cucumber o conceito de construção de testes baseado na sintaxe Gherkin.
+This project is an example of mobile testing automation. The project use Appium framework  with Java technology applying the Gherkin syntax.
 
-Diferente do princípio do BDD (técnica de desenvolvimento Ágil) aqui o Gherkin é utilizado com para tornar os scripts de testes mais expressivos. Desta forma, as histórias descrevem todas as ações necessárias do usuário para interagir (botões, textos, gestures e etc.) indo além do contexto de negócio.
+Difference from the principle of BDD (Agile development technique) here Gherkin is used to make test scripts more expressive. In this way, how things describe all the actions of the user perform to interact (buttons, texts, gestures and etc.) going beyond the business context.
 
-Está proposta de automação de testes possibilita um índice alto de reaproveitamento de código e provendo baixa complexidade, simplicidade e maior performance na construção de testes automatizados.
+The proposal of automation of tests allows an index of reutilization of code high and of low complexity, simplicity and performance in the construction of automated tests.
 
 
 ### Highlights
 
-* Na classe support/Hooks é implementada a instrumentalização do aplicativo e o encerramento do Driver.
-* Na classe stepdefs/DefaultSteps é implementado os steps padrões de manipulação do aplicativo.
-* Na classe helpers/DriverManagerHelper manipula o driver.
+* support/Hooks class implements the driver start and closing.
+* stepdefs/DefaultSteps class implements the application step patterns.
+* helpers/DriverManagerHelper class handles the driver.
 
 ### Dependencies
 
-    * Install [JAVA](https://www.oracle.com/technetwork/pt/java/javase/downloads/index.html/)
-    
-    * Install [Appium](https://github.com/appium/appium-desktop/releases/tag/v1.7.1)
-
-    * Install [Android](https://developer.android.com/studio/)
-    
-    * Install [Gradle] (https://gradle.org/install/)
+* Install [JAVA](https://www.oracle.com/technetwork/pt/java/javase/downloads/index.html/)    
+* Install [Appium](https://github.com/appium/appium-desktop/releases/tag/v1.7.1)
+* Install [Android](https://developer.android.com/studio/)
+* Install [Gradle](https://gradle.org/install/)
     
 ### TODO
-    * IOS instrumentation;
-    * Appium Server instrumentation;
-    * Parameter AppName, Device e etc.
+* IOS instrumentation;
+* Appium Server instrumentation;
+* Parameter AppName, Device e etc.
 
 ### Resources
 
