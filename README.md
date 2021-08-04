@@ -8,9 +8,9 @@
     </a>
 </p>
 
-# Java Web Testing
+# Java Mobile Testing
 
-Behavior driven development (BDD) approach to write automation test scripts to test web applications using Java, Appium and Cucumber.
+Behavior driven development (BDD) approach to write automation test scripts to test mobile applications using Java, Appium and Cucumber.
 
 ## Project Architecture
 
