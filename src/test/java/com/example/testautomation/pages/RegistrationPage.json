@@ -1,0 +1,8 @@
+{
+  "First Name": "xpath: //*[@resource-id = 'com.example.testautomationtool:id/firstNameText']",
+  "Last Name": "xpath: //*[@resource-id = 'com.example.testautomationtool:id/lastNameText']",
+  "I would like to receive newsletters": "xpath: //*[@resource-id = 'com.example.testautomationtool:id/newsCheckbox']",
+  "I accept the Terms of Service": "xpath: //*[@resource-id = 'com.example.testautomationtool:id/termsCheckbox']",
+  "Submit": "xpath: //*[@resource-id = 'com.example.testautomationtool:id/submit']",
+  "Message": "xpath: //android.widget.Toast[1]"
+}
